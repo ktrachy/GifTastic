@@ -28,7 +28,7 @@ $(document).ready(function() {
         // In this case, the "this" keyword refers to the button that was clicked
         var animal = $(this).attr("data-name");
         // Constructing a URL to search Giphy for the name of the person who said the quote
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
             animal + "&api_key=dc6zaTOxFJmzC&limit=10";
         console.log(queryURL);
         // Performing our AJAX GET request
